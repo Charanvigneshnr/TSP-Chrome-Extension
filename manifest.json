@@ -20,5 +20,5 @@
         "default_popup": "popup.html"
     },
     "content_security_policy": "script-src 'self' https://maps.googleapis.com/ https://*.googleapis.com/; object-src 'self'",
-    "apiKey": "AIzaSyCGX4X5Xz4sU5s84JmY5hy4knhZ6QKdp3s"
+    "key": "AIzaSyCGX4X5Xz4sU5s84JmY5hy4knhZ6QKdp3s"
 }
