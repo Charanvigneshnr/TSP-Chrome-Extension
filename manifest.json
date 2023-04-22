@@ -1,24 +1,25 @@
 {
-    "name": "Google Maps TSP Extension",
-    "description": "This extension calculates the minimum shortest path for visiting all the shops around your location.",
-    "version": "1.0.0",
     "manifest_version": 2,
+    "name": "My TSP Chrome Extension",
+    "version": "1.0",
+    "description": "A Chrome extension for optimizing routes",
     "icons": {
-        "16": "icons/icon-16.png",
-        "32": "icons/icon-32.png",
-        "48": "icons/icon-48.png",
-        "128": "icons/icon-128.png"
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
     },
     "permissions": [
-        "tabs",
-        "activeTab",
-        "geolocation",
-        "https://maps.googleapis.com/*"
+      "geolocation",
+      "tabs",
+      "activeTab",
+      "storage",
+      "https://maps.googleapis.com/*"
     ],
     "browser_action": {
-        "default_title": "Google Maps TSP Extension",
-        "default_popup": "popup.html"
+      "default_title": "TSP Extension",
+      "default_popup": "popup.html"
     },
-    "content_security_policy": "script-src 'self' https://maps.googleapis.com/ https://*.googleapis.com/; object-src 'self'",
+    "content_security_policy": "script-src 'self' https://maps.googleapis.com/ https://*.googleapis.com; object-src 'self'",
     "key": "AIzaSyCGX4X5Xz4sU5s84JmY5hy4knhZ6QKdp3s"
-}
+  }
+  
