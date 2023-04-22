@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Google Maps TSP Extension</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title">Google Maps TSP Extension</h1>
+            <form>
+                <div class="form-group">
+                    <label for="item">What do you want to buy?</label>
+                    <input type="text" id="item" name="item" required>
+                </div>
+                <div class="form-group">
+                    <label for="shops">How many shops can you visit?</label>
+                    <input type="number" id="shops" name="shops" min="1" max="20" required>
+                </div>
+                <button id="calculate">Calculate</button>
+            </form>
+            <div id="result"></div>
+        </div>
+        <script src="popup.js"></script>
+    </body>
+</html>
